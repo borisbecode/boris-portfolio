@@ -12,15 +12,16 @@ export default function Header() {
   return (
     <div className="Header">
       <Grid container spacing={0}>
-        <Grid item xs className="boris">
+        <Grid item xs={4} className="boris">
           <h1>Hello , I'm Boris !</h1>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={4}>
           <AvatarView
             style={{
-              width: "100vh",
-              height: "450px",
-              backgroundColor: "rgb(34, 33, 33)",
+              width: "400px",
+              height: "400px",
+              backgroundColor: "white",
+              borderRadius: "100%",
             }}
             url={url}
             rotateAvatar
@@ -28,7 +29,7 @@ export default function Header() {
             headMovement
           />
         </Grid>
-        <Grid item xs className="end"></Grid>
+        <Grid item xs={4} className="end"></Grid>
       </Grid>
     </div>
   );
