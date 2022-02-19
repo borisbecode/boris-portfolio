@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import "../../style/cards.css";
+import { theme } from "../intro/introduction";
 
 export default function Cardport() {
   return (
@@ -18,7 +19,7 @@ export default function Cardport() {
       sx={{ mt: 5 }}
     >
       <Card sx={{ display: { xs: "column", md: "flex", lg: "flex" } }}>
-        <Grid>
+        <Grid className="picture">
           {" "}
           <CardMedia
             component="img"
@@ -27,7 +28,10 @@ export default function Cardport() {
             alt="green iguana"
           />
         </Grid>
-        <Grid className="main" sx={{ display: "flex " }}>
+        <Grid
+          className="main"
+          sx={{ display: { xs: "column", md: "flex", lg: "flex" } }}
+        >
           <CardContent>
             <Typography className="title">
               {" "}
@@ -35,18 +39,22 @@ export default function Cardport() {
             </Typography>
             <Typography className="subtitle">
               {" "}
-              <p> Individual project - November 2021 - Javascript </p>
+              <p>
+                {" "}
+                Individual project - November 2021 - Javascript & Bootstrap{" "}
+              </p>
             </Typography>
             <Typography className="text">
               Creation of a RPG game with Javascript .
             </Typography>
 
             <Typography className="text">
-              I learning a lot about the Object oriented in this exercice .
+              I learning a lot about the Object oriented in this exercice .This
+              exercice was very funny !
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>
-            <Button variant="outlined" size="small">
+            <Button variant="outlined" size="small" style={theme}>
               Website
             </Button>
             <Button
@@ -54,6 +62,7 @@ export default function Cardport() {
               size="small"
               className="button"
               sx={{ ml: 2, mr: 1 }}
+              style={theme}
             >
               Github
             </Button>

@@ -1,5 +1,10 @@
 .main {
   background-color: rgba(22, 22, 22, 0.829);
+  text-align: center;
+  width: 40vw;
+}
+.picture {
+  width: 20vw;
 }
 
 .text {
@@ -11,6 +16,8 @@
   margin: 0;
   padding: 0;
   color: #e3b587;
+  justify-content: center;
+  text-align: center;
 }
 
 .subtitle > p {
@@ -21,4 +28,13 @@
 
 .button {
   color: red;
+}
+
+@media only screen and (max-width: 620px) {
+  .main {
+    width: auto;
+  }
+  .picture {
+    width: auto;
+  }
 }

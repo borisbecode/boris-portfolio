@@ -9,6 +9,16 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import "../../style/introduction.css";
 
+import { createTheme } from "@mui/material/styles";
+import { red } from "@mui/material/colors";
+
+import { createMuiTheme, ThemeProvider } from "@material-ui/core";
+
+export const theme = {
+  backgroundColor: " #e3b587",
+  Color: "#000000",
+};
+
 function Introduction() {
   return (
     <Grid
@@ -38,14 +48,17 @@ function Introduction() {
             </Typography>
 
             <CardActions sx={{ justifyContent: "space-around", mt: 3 }}>
-              <Button variant="outlined" size="small">
+              <Button variant="outlined" size="small" style={theme}>
                 CV
               </Button>
               <Button
+                style={theme}
                 variant="outlined"
                 size="small"
                 className="button"
                 sx={{ ml: 2, mr: 1 }}
+                target="_blank"
+                href="http://www.google.com/"
               >
                 Linkedin
               </Button>

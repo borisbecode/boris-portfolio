@@ -7,10 +7,12 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import "../../style/cards.css";
+import { theme } from "../intro/introduction";
 
 export default function Fakebook() {
   return (
     <Grid
+      className="largeur"
       container
       direction="column"
       alignItems="center"
@@ -18,7 +20,7 @@ export default function Fakebook() {
       sx={{ mt: 5, mb: 5 }}
     >
       <Card sx={{ display: { xs: "column", md: "flex", lg: "flex" } }}>
-        <Grid>
+        <Grid className="picture">
           {" "}
           <CardMedia
             component="img"
@@ -27,7 +29,10 @@ export default function Fakebook() {
             alt="green iguana"
           />
         </Grid>
-        <Grid className="main" sx={{ display: "flex " }}>
+        <Grid
+          className="main"
+          sx={{ display: { xs: "column", md: "flex", lg: "flex" } }}
+        >
           <CardContent>
             <Typography className="title">
               {" "}
@@ -35,18 +40,19 @@ export default function Fakebook() {
             </Typography>
             <Typography className="subtitle">
               {" "}
-              <p> Individual project - November 2021 </p>
+              <p> Team project - January 2022 - React & MaterialUi </p>
             </Typography>
             <Typography className="text">
-              Creation of a RPG game with Javascript .
+              Creation of a fake facebook. Make with React , NodeJs , MaterialUi
             </Typography>
 
             <Typography className="text">
-              I learning a lot about the Object oriented in this exercice .
+              This is my first experience with React, i understood the power of
+              components there.
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>
-            <Button variant="outlined" size="small">
+            <Button variant="outlined" size="small" style={theme}>
               Website
             </Button>
             <Button
@@ -54,6 +60,7 @@ export default function Fakebook() {
               size="small"
               className="button"
               sx={{ ml: 2, mr: 1 }}
+              style={theme}
             >
               Github
             </Button>
