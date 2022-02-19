@@ -8,6 +8,7 @@ import Wedding from "./components/cards/wedding";
 import Getflix from "./components/cards/getflix";
 import Data from "./components/cards/data";
 import Restaurant from "./components/cards/restaurant";
+import Experimental from "./components/cards/experimental";
 
 function App() {
   return (
@@ -15,12 +16,13 @@ function App() {
       <Header></Header>
       <Introduction></Introduction>
       <Wedding></Wedding>
+      <Experimental></Experimental>
       <Fakebook></Fakebook>
       <Getflix></Getflix>
       <Data></Data>
+      <Cardport></Cardport>
       <Restaurant></Restaurant>
 
-      <Cardport></Cardport>
       <Outro></Outro>
     </div>
   );

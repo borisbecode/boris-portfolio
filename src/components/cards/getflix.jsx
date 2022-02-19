@@ -24,8 +24,8 @@ export default function Getflix() {
           <CardMedia
             component="img"
             height="340"
-            image="https://zupimages.net/up/22/07/t6r7.png"
-            alt="green iguana"
+            image="https://zupimages.net/up/22/07/ksqe.png"
+            alt="getflix"
           />
         </Grid>
         <Grid
@@ -49,7 +49,7 @@ export default function Getflix() {
               I realized it with Angular and Firebase, i learned a lot there!
             </Typography>
             <Typography className="text">
-              <br /> Get acces : <br /> email : email@gmail.com <br /> password
+              <br /> Get acces : <br /> email : invite@gmail.com <br /> password
               : password
             </Typography>
           </CardContent>
@@ -59,7 +59,7 @@ export default function Getflix() {
               size="small"
               style={theme}
               target="_blank"
-              href="https://dashboard-3bc8b.web.app/home"
+              href="https://frealis.000webhostapp.com/index.php#"
             >
               Website
             </Button>
@@ -70,7 +70,7 @@ export default function Getflix() {
               sx={{ ml: 2, mr: 1 }}
               style={theme}
               target="_blank"
-              href="https://github.com/borisbecode/npProject"
+              href="https://github.com/borisbecode/GETFLIXPHP"
             >
               Github
             </Button>

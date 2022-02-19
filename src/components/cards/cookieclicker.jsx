@@ -24,8 +24,8 @@ export default function Cookie() {
           <CardMedia
             component="img"
             height="340"
-            image="https://zupimages.net/up/22/07/z3yf.png"
-            alt="green iguana"
+            image="https://zupimages.net/up/22/07/ms0o.png"
+            alt="cookie clicker"
           />
         </Grid>
         <Grid
@@ -58,7 +58,7 @@ export default function Cookie() {
               size="small"
               style={theme}
               target="_blank"
-              href="https://borisbecode.github.io/RPG-CHALLENGE/"
+              href="https://marinellv.github.io/Cookie-clicker/"
             >
               Website
             </Button>
@@ -69,7 +69,7 @@ export default function Cookie() {
               sx={{ ml: 2, mr: 1 }}
               style={theme}
               target="_blank"
-              href="https://github.com/borisbecode/RPG-CHALLENGE"
+              href="https://github.com/borisbecode/Cookie-clicker"
             >
               Github
             </Button>

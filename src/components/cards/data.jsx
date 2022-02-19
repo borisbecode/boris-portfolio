@@ -24,8 +24,8 @@ export default function Data() {
           <CardMedia
             component="img"
             height="340"
-            image="https://zupimages.net/up/22/07/t6r7.png"
-            alt="green iguana"
+            image="https://zupimages.net/up/22/07/83wf.png"
+            alt="data"
           />
         </Grid>
         <Grid
@@ -59,7 +59,7 @@ export default function Data() {
               size="small"
               style={theme}
               target="_blank"
-              href="https://dashboard-3bc8b.web.app/home"
+              href="https://borisbecode.github.io/data-ajax/"
             >
               Website
             </Button>
@@ -70,7 +70,7 @@ export default function Data() {
               sx={{ ml: 2, mr: 1 }}
               style={theme}
               target="_blank"
-              href="https://github.com/borisbecode/npProject"
+              href="https://github.com/borisbecode/data-ajax"
             >
               Github
             </Button>

@@ -24,8 +24,8 @@ export default function Restaurant() {
           <CardMedia
             component="img"
             height="340"
-            image="https://zupimages.net/up/22/07/t6r7.png"
-            alt="green iguana"
+            image="https://zupimages.net/up/22/07/ddzm.png"
+            alt="testaurant"
           />
         </Grid>
         <Grid
@@ -59,7 +59,7 @@ export default function Restaurant() {
               size="small"
               style={theme}
               target="_blank"
-              href="https://dashboard-3bc8b.web.app/home"
+              href="https://borisbecode.github.io/restaurant/index.html"
             >
               Website
             </Button>
@@ -70,7 +70,7 @@ export default function Restaurant() {
               sx={{ ml: 2, mr: 1 }}
               style={theme}
               target="_blank"
-              href="https://github.com/borisbecode/npProject"
+              href="https://github.com/borisbecode/restaurant"
             >
               Github
             </Button>
