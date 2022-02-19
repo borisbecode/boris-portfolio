@@ -12,7 +12,6 @@ import { theme } from "../intro/introduction";
 export default function Fakebook() {
   return (
     <Grid
-      className="largeur"
       container
       direction="column"
       alignItems="center"
@@ -25,7 +24,7 @@ export default function Fakebook() {
           <CardMedia
             component="img"
             height="340"
-            image="https://picsum.photos/200/300"
+            image="https://zupimages.net/up/22/07/0865.png"
             alt="green iguana"
           />
         </Grid>
@@ -50,9 +49,19 @@ export default function Fakebook() {
               This is my first experience with React, i understood the power of
               components there.
             </Typography>
+            <Typography className="text">
+              <br /> Get acces : <br /> email : test123@gmail.com <br />{" "}
+              password : test123
+            </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>
-            <Button variant="outlined" size="small" style={theme}>
+            <Button
+              variant="outlined"
+              size="small"
+              style={theme}
+              target="_blank"
+              href="https://friendlybooktrio.herokuapp.com/"
+            >
               Website
             </Button>
             <Button
@@ -61,6 +70,8 @@ export default function Fakebook() {
               className="button"
               sx={{ ml: 2, mr: 1 }}
               style={theme}
+              target="_blank"
+              href="https://github.com/borisbecode/BookFacetrio"
             >
               Github
             </Button>

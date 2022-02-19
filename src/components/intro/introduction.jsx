@@ -48,7 +48,13 @@ function Introduction() {
             </Typography>
 
             <CardActions sx={{ justifyContent: "space-around", mt: 3 }}>
-              <Button variant="outlined" size="small" style={theme}>
+              <Button
+                variant="outlined"
+                size="small"
+                style={theme}
+                target="_blank"
+                href="https://drive.google.com/drive/folders/11avxEUuSsRYbgYULM382YvifcmiEwCvq?usp=sharing"
+              >
                 CV
               </Button>
               <Button
@@ -58,7 +64,7 @@ function Introduction() {
                 className="button"
                 sx={{ ml: 2, mr: 1 }}
                 target="_blank"
-                href="http://www.google.com/"
+                href="www.linkedin.com/in/boris-lorenzonetto"
               >
                 Linkedin
               </Button>

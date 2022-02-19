@@ -10,6 +10,7 @@
 .text {
   text-align: left;
   color: #e3b587;
+  width: 28vw;
 }
 
 .title > h1 {
@@ -35,6 +36,9 @@
     width: auto;
   }
   .picture {
+    width: auto;
+  }
+  .text {
     width: auto;
   }
 }

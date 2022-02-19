@@ -24,7 +24,7 @@ export default function Cardport() {
           <CardMedia
             component="img"
             height="340"
-            image="https://picsum.photos/200/300"
+            image="https://zupimages.net/up/22/07/z3yf.png"
             alt="green iguana"
           />
         </Grid>
@@ -49,12 +49,17 @@ export default function Cardport() {
             </Typography>
 
             <Typography className="text">
-              I learning a lot about the Object oriented in this exercice .This
-              exercice was very funny !
+              I learning a lot about the Object oriented in this exercice .
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>
-            <Button variant="outlined" size="small" style={theme}>
+            <Button
+              variant="outlined"
+              size="small"
+              style={theme}
+              target="_blank"
+              href="https://borisbecode.github.io/RPG-CHALLENGE/"
+            >
               Website
             </Button>
             <Button
@@ -63,6 +68,8 @@ export default function Cardport() {
               className="button"
               sx={{ ml: 2, mr: 1 }}
               style={theme}
+              target="_blank"
+              href="https://github.com/borisbecode/RPG-CHALLENGE"
             >
               Github
             </Button>
