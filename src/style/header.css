@@ -1,8 +1,44 @@
-/* .boris {
-  background-color: rgb(34, 33, 33);
+h1 {
+  color: #e3b587;
+}
+h2 {
+  color: #e3b587;
 }
 
-.end {
-  background-color: rgb(34, 33, 33);
+.Header {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  box-shadow: 0 4px 2px -2px gray;
 }
- */
+
+.custom-shape-divider-top-1645269831 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1645269831 svg {
+  position: relative;
+  display: block;
+  width: calc(162% + 1.3px);
+  height: 90px;
+}
+
+.custom-shape-divider-top-1645269831 .shape-fill {
+  fill: #724141;
+}

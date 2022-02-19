@@ -1,0 +1,17 @@
+.main {
+  background-color: rgba(22, 22, 22, 0.609);
+}
+
+.text {
+  text-align: left;
+  color: #e3b587;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+}
+
+.subtitle p {
+  margin-top: 0;
+}
