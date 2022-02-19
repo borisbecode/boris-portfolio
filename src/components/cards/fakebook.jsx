@@ -8,14 +8,14 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import "../../style/cards.css";
 
-export default function Cardport() {
+export default function Fakebook() {
   return (
     <Grid
       container
       direction="column"
       alignItems="center"
       justify="center"
-      sx={{ mt: 5 }}
+      sx={{ mt: 5, mb: 5 }}
     >
       <Card sx={{ display: { xs: "column", md: "flex", lg: "flex" } }}>
         <Grid>
@@ -31,11 +31,11 @@ export default function Cardport() {
           <CardContent>
             <Typography className="title">
               {" "}
-              <h1>The RPG</h1>
+              <h1>The Fakebook</h1>
             </Typography>
             <Typography className="subtitle">
               {" "}
-              <p> Individual project - November 2021 - Javascript </p>
+              <p> Individual project - November 2021 </p>
             </Typography>
             <Typography className="text">
               Creation of a RPG game with Javascript .

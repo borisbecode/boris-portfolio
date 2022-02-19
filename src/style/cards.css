@@ -1,5 +1,5 @@
 .main {
-  background-color: rgba(22, 22, 22, 0.609);
+  background-color: rgba(22, 22, 22, 0.829);
 }
 
 .text {
@@ -7,11 +7,18 @@
   color: #e3b587;
 }
 
-.title {
+.title > h1 {
   margin: 0;
   padding: 0;
+  color: #e3b587;
 }
 
-.subtitle p {
+.subtitle > p {
   margin-top: 0;
+  margin-bottom: 5vh;
+  color: #e0c3a6;
+}
+
+.button {
+  color: red;
 }
