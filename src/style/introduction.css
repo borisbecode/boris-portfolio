@@ -1,0 +1,37 @@
+.text2 {
+  margin-top: 2vh;
+  padding-top: 5vh;
+  text-align: left;
+  color: #e3b587;
+}
+
+.text3 {
+  margin-top: 2vh;
+
+  text-align: left;
+  color: #e3b587;
+  font-weight: bolder;
+}
+
+.text4 {
+  font-size: 3em;
+  margin-top: 4vh;
+  padding-top: 2vh;
+  margin-bottom: 2vh;
+
+  text-align: left;
+  color: #e3b587;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.outroduction {
+  background-color: rgba(22, 22, 22, 0.685);
+  text-align: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.introduction {
+  background-color: rgba(22, 22, 22, 0.842);
+}
