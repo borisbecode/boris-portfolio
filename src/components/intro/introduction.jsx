@@ -38,8 +38,8 @@ function Introduction() {
 
             <Typography className="text">Welcome to my portfolio !</Typography>
             <Typography className="text3">
-              I am looking for an internship for mid-April for a duration of two
-              to three months.
+              I am looking for a 2 to 3 month web developer internship. <br />
+              And i am available to start mid-April.
             </Typography>
 
             <Typography className="text2">
@@ -64,7 +64,7 @@ function Introduction() {
                 className="button"
                 sx={{ ml: 2, mr: 1 }}
                 target="_blank"
-                href="www.linkedin.com/in/boris-lorenzonetto"
+                href="https://www.linkedin.com/in/boris-lorenzonetto"
               >
                 Linkedin
               </Button>

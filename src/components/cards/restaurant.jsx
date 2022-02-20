@@ -39,18 +39,18 @@ export default function Restaurant() {
             </Typography>
             <Typography className="subtitle">
               {" "}
-              <p> Individual project - February 2022 - Angular & Firebase </p>
+              <p>
+                {" "}
+                Individual project - September 2021 - HTML-CSS & Bootstrap{" "}
+              </p>
             </Typography>
             <Typography className="text">
-              Creation of a complete wedding website for a client.
+              My first project at Becode !{" "}
             </Typography>
 
             <Typography className="text">
-              I realized it with Angular and Firebase, i learned a lot there!
-            </Typography>
-            <Typography className="text">
-              <br /> Get acces : <br /> email : email@gmail.com <br /> password
-              : password
+              I realized it with Html, css and boostrap . <br /> I learned the
+              importance of responsive.
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>

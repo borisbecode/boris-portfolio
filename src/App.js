@@ -9,6 +9,7 @@ import Getflix from "./components/cards/getflix";
 import Data from "./components/cards/data";
 import Restaurant from "./components/cards/restaurant";
 import Experimental from "./components/cards/experimental";
+import Cookie from "./components/cards/cookieclicker";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Fakebook></Fakebook>
       <Getflix></Getflix>
       <Data></Data>
+      <Cookie></Cookie>
       <Cardport></Cardport>
       <Restaurant></Restaurant>
 

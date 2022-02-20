@@ -67,7 +67,7 @@ export default function Wedding() {
               variant="outlined"
               size="small"
               className="button"
-              sx={{ ml: 2, mr: 1 }}
+              sx={{ ml: 5, mr: 5 }}
               style={theme}
               target="_blank"
               href="https://github.com/borisbecode/npProject"

@@ -39,17 +39,14 @@ export default function Experimental() {
             </Typography>
             <Typography className="subtitle">
               {" "}
-              <p>
-                {" "}
-                Individual project - November 2021 - Javascript & Bootstrap{" "}
-              </p>
+              <p> Individual project - February 2022 - Angular & Spline 3D </p>
             </Typography>
             <Typography className="text">
-              Creation of a RPG game with Javascript .
+              creation of an experimental 3D portfolio .
             </Typography>
 
             <Typography className="text">
-              I learning a lot about the Object oriented in this exercice .
+              I liked to play with the type of object and the lights
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>

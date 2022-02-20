@@ -39,17 +39,16 @@ export default function Cookie() {
             </Typography>
             <Typography className="subtitle">
               {" "}
-              <p>
-                {" "}
-                Individual project - November 2021 - Javascript & Bootstrap{" "}
-              </p>
+              <p> Team project - October 2021 - Javascript & Bootstrap</p>
             </Typography>
             <Typography className="text">
-              Creation of a RPG game with Javascript .
+              My first team project , i understood the difficulty of coding in a
+              group . <br /> First pain with pull request also ...
             </Typography>
 
             <Typography className="text">
-              I learning a lot about the Object oriented in this exercice .
+              {" "}
+              <br /> Don't click on the tree , you will be addict !{" "}
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>

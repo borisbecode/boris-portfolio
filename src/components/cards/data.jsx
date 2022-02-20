@@ -39,18 +39,14 @@ export default function Data() {
             </Typography>
             <Typography className="subtitle">
               {" "}
-              <p> Individual project - February 2022 - Angular & Firebase </p>
+              <p> Individual project - November 2021 - Javascript </p>
             </Typography>
             <Typography className="text">
-              Creation of a complete wedding website for a client.
+              Creation of a pretty and interactive graphic with charts-js.
             </Typography>
 
             <Typography className="text">
-              I realized it with Angular and Firebase, i learned a lot there!
-            </Typography>
-            <Typography className="text">
-              <br /> Get acces : <br /> email : email@gmail.com <br /> password
-              : password
+              A lot of DOM manipulation and fetching data
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>
