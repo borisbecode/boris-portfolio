@@ -49,8 +49,8 @@ export default function Restaurant() {
             </Typography>
 
             <Typography className="text">
-              I realized it with Html, css and boostrap . <br /> I learned the
-              importance of responsive.
+              I realized it with HTML, CSS and Boostrap . <br /> I learned the
+              importance for the websites to be responsive.
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>

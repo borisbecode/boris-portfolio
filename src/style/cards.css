@@ -31,7 +31,7 @@
   color: red;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 1030px) {
   .main {
     width: auto;
   }

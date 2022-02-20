@@ -42,11 +42,12 @@ export default function Experimental() {
               <p> Individual project - February 2022 - Angular & Spline 3D </p>
             </Typography>
             <Typography className="text">
-              creation of an experimental 3D portfolio .
+              Creation of an experimental 3D portfolio .
             </Typography>
 
             <Typography className="text">
-              I liked to play with the type of object and the lights
+              I enjoyed to experiment the play of light on the differents
+              materials in the Spline3D.
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>

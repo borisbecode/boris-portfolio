@@ -42,12 +42,12 @@ export default function Fakebook() {
               <p> Team project - January 2022 - React & MaterialUi </p>
             </Typography>
             <Typography className="text">
-              Creation of a fake facebook. Make with React , NodeJs , MaterialUi
+              Creation of a fake Facebook. Make with React , NodeJs , MaterialUi
             </Typography>
 
             <Typography className="text">
-              This is my first experience with React, i understood the power of
-              components there.
+              This was my first experience with React. I understood the power of
+              the components there.
             </Typography>
             <Typography className="text">
               <br /> Get acces : <br /> email : test123@gmail.com <br />{" "}

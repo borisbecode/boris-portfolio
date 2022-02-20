@@ -46,7 +46,8 @@ export default function Data() {
             </Typography>
 
             <Typography className="text">
-              A lot of DOM manipulation and fetching data
+              This project was about a lot of DOM manipulation and fetching
+              data.
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>

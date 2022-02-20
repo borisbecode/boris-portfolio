@@ -42,11 +42,13 @@ export default function Getflix() {
               <p> Team project - December 2021 - PHP & Javascript </p>
             </Typography>
             <Typography className="text">
-              Creation of a fake Netflix with IMDB API
+              Creation of a fake Netflix with IMDB API. I especially realised
+              the back end of the project in PHP with the cooperation of another
+              team mate.
             </Typography>
 
             <Typography className="text">
-              you can see the youtube videos if you log in !
+              You can see the youtube videos if you log in !
             </Typography>
             <Typography className="text">
               <br /> Get acces : <br /> email : invite@gmail.com <br /> password

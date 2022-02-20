@@ -38,13 +38,12 @@ function Introduction() {
 
             <Typography className="text">Welcome to my portfolio !</Typography>
             <Typography className="text3">
-              I am looking for a 2 to 3 month web developer internship. <br />
-              And i am available to start mid-April.
+              I am looking for an internship of 2 to 3 months as a web
+              developer. <br />I am available to start in mid-April.
             </Typography>
 
             <Typography className="text2">
-              Here are my projects below, I wish you a good discovery and see
-              you soon!
+              Feel free to discover my projects below. I hope to meet you soon !
             </Typography>
 
             <CardActions sx={{ justifyContent: "space-around", mt: 3 }}>

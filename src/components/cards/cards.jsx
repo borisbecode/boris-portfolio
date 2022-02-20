@@ -49,13 +49,13 @@ export default function Cardport() {
             </Typography>
 
             <Typography className="text">
-              I learning a lot about the Object oriented in this exercice .{" "}
+              I learned a lot about the oriented-object in this exercice .{" "}
               <br />
-              My first kind of 'AI' also.
+              My first kind of 'AI' too.
             </Typography>
 
             <Typography className="text">
-              <br /> Really, the game is difficult !
+              <br /> The game is really difficult !
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>

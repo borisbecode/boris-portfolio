@@ -21,9 +21,9 @@ function Outro() {
         <Grid className="outroduction" sx={{ display: "flex " }}>
           <CardContent>
             <Typography className="text4">
-              I love to learn new things, that's why coding is the right thing
-              for me. <br /> And i like the challenge and the reflection that
-              code brings me.
+              I like to learn new things, that's why I think coding is the right
+              thing for me. <br /> I like to challenge and ponder myself whilst
+              working.
             </Typography>
           </CardContent>
         </Grid>
