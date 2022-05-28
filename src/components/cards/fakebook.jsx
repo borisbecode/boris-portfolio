@@ -42,7 +42,7 @@ export default function Fakebook() {
               <p> Team project - January 2022 - React & MaterialUi </p>
             </Typography>
             <Typography className="text">
-              Creation of a fake Facebook. Make with React , NodeJs , MaterialUi
+              Creation of a fake Facebook. Madee with React, NodeJs, MaterialUi.
             </Typography>
 
             <Typography className="text">

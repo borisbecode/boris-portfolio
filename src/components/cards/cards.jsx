@@ -45,12 +45,11 @@ export default function Cardport() {
               </p>
             </Typography>
             <Typography className="text">
-              Creation of a RPG game with Javascript .
+              Creation of a RPG game with Javascript.
             </Typography>
 
             <Typography className="text">
-              I learned a lot about the oriented-object in this exercice .{" "}
-              <br />
+              I learned a lot about the oriented-object in this exercice. <br />
               My first kind of 'AI' too.
             </Typography>
 

@@ -48,7 +48,7 @@ export default function Getflix() {
             </Typography>
 
             <Typography className="text">
-              You can see the youtube videos if you log in !
+              You can see the youtube videos if you log in!
             </Typography>
             <Typography className="text">
               <br /> Get acces : <br /> email : invite@gmail.com <br /> password

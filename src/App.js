@@ -10,12 +10,14 @@ import Data from "./components/cards/data";
 import Restaurant from "./components/cards/restaurant";
 import Experimental from "./components/cards/experimental";
 import Cookie from "./components/cards/cookieclicker";
+import Ensemble from "./components/cards/ensemblegnofar";
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
       <Introduction></Introduction>
+      <Ensemble></Ensemble>
       <Wedding></Wedding>
       <Experimental></Experimental>
       <Fakebook></Fakebook>

@@ -43,12 +43,12 @@ export default function Cookie() {
             </Typography>
             <Typography className="text">
               My first team project , i understood the difficulty of coding with
-              a team . <br /> I had my first pain with pull request too ...
+              a team. <br /> I had my first pain with pull request too...
             </Typography>
 
             <Typography className="text">
               {" "}
-              <br /> Don't click on the tree or you will be addict !{" "}
+              <br /> Don't click on the tree or you will be addict!{" "}
             </Typography>
           </CardContent>
           <CardActions sx={{ display: "inline-flex", alignItems: "flex-end" }}>

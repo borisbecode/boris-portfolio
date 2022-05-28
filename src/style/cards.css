@@ -42,3 +42,9 @@
     width: auto;
   }
 }
+
+@media only screen and (max-width: 1800px) {
+  .main {
+    width: auto;
+  }
+}

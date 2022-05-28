@@ -36,14 +36,14 @@ function Introduction() {
               <h1>Presentation </h1>
             </Typography>
 
-            <Typography className="text">Welcome to my portfolio !</Typography>
+            <Typography className="text">Welcome to my portfolio!</Typography>
             <Typography className="text3">
-              I am looking for an internship of 2 to 3 months as a web
-              developer. <br />I am available to start in mid-April.
+              Currently in a intership at ETNIC, I am now looking for a job as a
+              junior web developer.
             </Typography>
 
             <Typography className="text2">
-              Feel free to discover my projects below. I hope to meet you soon !
+              Feel free to discover my projects below. I hope to meet you soon!
             </Typography>
 
             <CardActions sx={{ justifyContent: "space-around", mt: 3 }}>
